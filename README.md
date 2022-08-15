@@ -36,8 +36,9 @@ OTP verification using an SMS message
    PRIMARY KEY (`id`)
    );
 5. and press button go  and now you have database
-6. Open in browser http://localhost/otp
-7. Create registration
+6 You need to change the account SID and Auth Token with what I send in the email because when I add them to gitHub twilio blocks them the account SID which is in the code
+7. Open in browser http://localhost/otp
+8. Create registration
 
 ## Testing:
 ```$ ./vendor/bin/phpunit tests```
