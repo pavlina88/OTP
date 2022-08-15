@@ -1,0 +1,21 @@
+{
+    "name": "pavlina88/login",
+    "description": "OTP registratin",
+    "type": "project",
+    "keywords": [
+        "PHP"
+    ],
+    "require": {
+        "twilio/sdk": "^5.18",
+        "php": "^7.4",
+        "ext-mysqli": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "test/"
+        }
+    }
+}
